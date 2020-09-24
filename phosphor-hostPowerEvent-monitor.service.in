@@ -1,0 +1,12 @@
+[Unit]
+Description=BMC hostPowerEvent Monitor
+After=xyz.openbmc_project.Chassis.Control.Power.service
+
+[Service]
+ExecStart=@bindir@/hostPowerEvent-monitor
+Type=dbus
+BusName=xyz.openbmc_project.HostPowerEventMon
+SyslogIdentifier=phosphor-hostPowerEvent-monitor
+
+[Install]
+WantedBy=multi-user.target
