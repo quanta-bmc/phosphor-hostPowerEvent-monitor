@@ -1,0 +1,17 @@
+{
+  "CurrentHostState" : {
+    "SensorType": "oem",
+    "Frequency" : 1,
+    "Window_size": 120
+  },
+  "RequestedHostTransition" : {
+    "SensorType": "oem",
+    "Frequency" : 1,
+    "Window_size": 120
+  },
+  "RestartCause" : {
+    "SensorType": "oem",
+    "Frequency" : 1,
+    "Window_size": 120
+  }
+}
